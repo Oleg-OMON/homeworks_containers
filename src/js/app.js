@@ -1,3 +1,5 @@
+import ErrorRepository from './ErrorRepository';
+
 class Team {
   constructor() {
     this.members = new Set();
@@ -20,5 +22,8 @@ class Team {
     return Array.from(this.members);
   }
 }
+
+const repo = new ErrorRepository();
+console.log(repo);
 
 export default Team;
