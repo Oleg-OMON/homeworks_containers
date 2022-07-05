@@ -1,0 +1,43 @@
+{
+  "name": "homeworks_containers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode developer",
+    "lint": "eslint . --fix",
+    "test": "jest",
+    "build": "webpack --mode production",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oleg-OMON/homeworks_containers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oleg-OMON/homeworks_containers/issues"
+  },
+  "homepage": "https://github.com/Oleg-OMON/homeworks_containers#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "babel-jest": "^28.1.2",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "html-loader": "^3.1.2",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^28.1.2",
+    "mini-css-extract-plugin": "^2.6.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "core-js": "^3.23.3"
+  }
+}
